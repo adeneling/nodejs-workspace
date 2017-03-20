@@ -9,6 +9,6 @@ function printMessage(username, badgeCount, points){
 	console.log(message);
 }
 
-const request = https.get(`https://teamtreehouse.com/${username}.json`, response =>{
+const request = https.get(`https://teamtreehouse.com/${username}.json`, response => {
 	console.dir(response.statusCode);
 });
